@@ -1,7 +1,6 @@
-package controller;
+package model.strategy;
 
 import model.factorymethod.Semaforo;
-import model.strategy.SemaforoStrategy;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package view;
 
-import controller.ControladorTransito;
+import model.strategy.ControladorTransito;
 import model.factorymethod.*;
 import model.observer.ObservadorNotificacoes;
 import model.strategy.*;
