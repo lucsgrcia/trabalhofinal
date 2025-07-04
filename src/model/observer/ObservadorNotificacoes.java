@@ -1,6 +1,5 @@
-package view;
+package model.observer;
 
-import model.observer.Observador;
 import javax.swing.*;
 
 public class ObservadorNotificacoes implements Observador {

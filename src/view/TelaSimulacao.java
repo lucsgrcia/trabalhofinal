@@ -2,7 +2,7 @@ package view;
 
 import controller.ControladorTransito;
 import model.factorymethod.*;
-import model.observer.PainelControle;
+import model.observer.ObservadorNotificacoes;
 import model.strategy.*;
 
 import javax.swing.*;
@@ -57,9 +57,6 @@ public class TelaSimulacao extends JFrame {
         painelVisual = new PainelRuas(numeroRuas);
         add(painelVisual, BorderLayout.CENTER);
 
-        // observador único
-        PainelControle painelControle = new PainelControle("Central");
-
         // define fluxo e strategy
         atualizarFluxoETempo();
 
@@ -69,12 +66,10 @@ public class TelaSimulacao extends JFrame {
 
         for (int i = 0; i < numeroRuas; i++) {
             Semaforo sa = criInteligente.criarSemaforo();
-            sa.registrar(painelControle);
             sa.registrar(obsVisual);
             semaforosAvenida.add(sa);
 
             Semaforo sr = criSimples.criarSemaforo();
-            sr.registrar(painelControle);
             sr.registrar(obsVisual);
             semaforosRuas.add(sr);
             painelVisual.adicionarSemaforos(i, sa, sr);

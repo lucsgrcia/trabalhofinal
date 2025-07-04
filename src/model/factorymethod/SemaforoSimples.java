@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SemaforoSimples implements Semaforo, Sujeito {
-    private SemaforoContexto contexto;
+    private final SemaforoContexto contexto;
     private final List<Observador> observadores = new ArrayList<>();
     private String ultimoEstado = "";
 
