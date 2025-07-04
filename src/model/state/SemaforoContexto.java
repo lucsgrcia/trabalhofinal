@@ -19,7 +19,7 @@ public class SemaforoContexto {
         this.transicaoAmarelo = false;
     }
 
-    public void proximoEstado() {
+    public void proxEstado() {
         tempoDecorrido++;
 
         if (estado instanceof EstadoVerde) {

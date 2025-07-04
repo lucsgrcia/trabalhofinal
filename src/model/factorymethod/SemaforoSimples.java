@@ -28,7 +28,7 @@ public class SemaforoSimples implements Semaforo, Sujeito {
 
     @Override
     public void mudarEstado() {
-        contexto.proximoEstado();
+        contexto.proxEstado();
 
         String novoEstado = contexto.getEstado();
         if (!novoEstado.equals(ultimoEstado)) {          // evita duplicidade
@@ -46,11 +46,6 @@ public class SemaforoSimples implements Semaforo, Sujeito {
     @Override
     public void registrar(Observador o) {
         observadores.add(o);
-    }
-
-    @Override
-    public void remover(Observador o) {
-        observadores.remove(o);
     }
 
     @Override

@@ -14,7 +14,7 @@ public class SemaforoInteligente implements Semaforo, Sujeito {
 
     @Override
     public void mudarEstado() {
-        contexto.proximoEstado();
+        contexto.proxEstado();
         String novoEstado = contexto.getEstado();
         if (!novoEstado.equals(ultimoEstado)) {
             ultimoEstado = novoEstado;
@@ -40,11 +40,6 @@ public class SemaforoInteligente implements Semaforo, Sujeito {
     @Override
     public void registrar(Observador o) {
         observadores.add(o);
-    }
-
-    @Override
-    public void remover(Observador o) {
-        observadores.remove(o);
     }
 
     @Override
