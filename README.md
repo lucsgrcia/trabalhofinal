@@ -17,13 +17,9 @@ Finalidade e Funcionalidades:
 O módulo oferece:
 
 Temporização adaptativa com base no fluxo de veículos utilizando o padrão Strategy
-
 Ciclos coordenados de semáforos entre avenidas e ruas
-
 Visualização em tempo real com interface gráfica Swing
-
 Sistema de notificações de eventos via padrão Observer
-
 Design extensível utilizando os padrões Factory Method e State
 
 Diagrama UML Tráfego Inteligente:
@@ -33,9 +29,6 @@ Diagrama UML Tráfego Inteligente:
 Como Usar:
 
 A janela TelaPrincipal solicita o número de cruzamentos da avenida.
-
 Após confirmar, a janela de simulação (TelaSimulacao) será aberta.
-
 Observe a animação dos semáforos e o painel de notificações à direita.
-
 Clique em "Parar Simulação" para encerrar.
