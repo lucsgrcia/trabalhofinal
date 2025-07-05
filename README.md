@@ -26,6 +26,7 @@ Sistema de notificações de eventos via padrão Observer
 
 Design extensível utilizando os padrões Factory Method e State
 
+Diagrama UML Tráfego Inteligente:
 ![UML Tráfego Inteligente](img/uml.png)
 
 
