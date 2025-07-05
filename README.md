@@ -1,4 +1,9 @@
-# trabalhofinal - Lucas Garcia e Lara Côrtes
+# trabalhofinal
+
+Participantes:
+Lucas Garcia de Lacerda - 202501057
+Lara Côrtes Japiassu - 202501055
+              
 Escopo do Módulo: Tráfego Inteligente
 
 Este repositório implementa o submódulo de controle de semáforos do SmartCitySim. Ele se concentra na gestão do fluxo de tráfego por meio de semáforos adaptativos e coordenados em avenidas e ruas transversais.
