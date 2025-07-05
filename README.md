@@ -1,7 +1,9 @@
 # trabalhofinal
 
 Participantes:
+
 Lucas Garcia de Lacerda - 202501057
+
 Lara Côrtes Japiassu - 202501055
               
 Escopo do Módulo: Tráfego Inteligente
