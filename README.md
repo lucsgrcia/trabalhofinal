@@ -5,12 +5,14 @@ Participantes:
 Lucas Garcia de Lacerda - 202501057
 
 Lara Côrtes Japiassu - 202501055
+
               
 Escopo do Módulo: Tráfego Inteligente
 
 Este repositório implementa o submódulo de controle de semáforos do SmartCitySim. Ele se concentra na gestão do fluxo de tráfego por meio de semáforos adaptativos e coordenados em avenidas e ruas transversais.
 
-Finalidade e Funcionalidades
+
+Finalidade e Funcionalidades:
 
 O módulo oferece:
 
@@ -25,6 +27,7 @@ Sistema de notificações de eventos via padrão Observer
 Design extensível utilizando os padrões Factory Method e State
 
 ![UML Tráfego Inteligente](C:\Users\Lucas\Pictures\Cópia de LucasGarciaTeatroUML(2).png****)
+
 
 Como Usar:
 
