@@ -1,9 +1,9 @@
 # trabalhofinal
-#Escopo do Módulo: Tráfego Inteligente
+![Escopo do Módulo: Tráfego Inteligente]
 
 Este repositório implementa o submódulo de controle de semáforos do SmartCitySim. Ele se concentra na gestão do fluxo de tráfego por meio de semáforos adaptativos e coordenados em avenidas e ruas transversais.
 
-#Finalidade e Funcionalidades
+![Finalidade e Funcionalidades]
 
 O módulo oferece:
 
@@ -19,7 +19,7 @@ Design extensível utilizando os padrões Factory Method e State
 
 ![UML Tráfego Inteligente](C:\Users\Lucas\Pictures\Cópia de LucasGarciaTeatroUML(2).png****)
 
-#Como Usar
+![Como Usar:]
 
 A janela TelaPrincipal solicita o número de cruzamentos da avenida.
 
